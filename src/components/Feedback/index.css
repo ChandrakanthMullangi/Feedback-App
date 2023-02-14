@@ -1,0 +1,131 @@
+/* Write your CSS code here. */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.feedback-container {
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #ffeeee, #ffebeb, #ffc0bb);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback-emojis-container {
+  margin: 100px;
+  height: 280px;
+  width: 280px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .feedback-emojis-container {
+    height: 400px;
+    width: 650px;
+  }
+}
+
+.feedback-emojis-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+
+.feedback-emojis-container-heading {
+  font-family: Roboto;
+  font-size: 15px;
+  text-align: center;
+}
+
+.feedback-emojis-response-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.emoji {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 25px;
+}
+
+@media (min-width: 768px) {
+  .emoji {
+    margin-right: 70px;
+  }
+}
+
+.emoji-button {
+  background-color: transparent;
+  border: none;
+}
+
+.emoji-image {
+  height: 50px;
+  width: 50px;
+}
+
+@media (min-width: 768px) {
+  .emoji-image {
+    height: 70px;
+    width: 70px;
+  }
+}
+
+.emoji-response {
+  font-family: Roboto;
+  font-size: 15px;
+}
+
+@media (min-width: 768px) {
+  .feedback-emojis-container-heading {
+    font-size: 30px;
+  }
+}
+
+.love-emoji-response-container {
+  margin: 100px;
+  height: 280px;
+  width: 280px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+@media (min-width: 768px) {
+  .love-emoji-response-container {
+    height: 300px;
+    width: 600px;
+  }
+}
+
+.love-emoji-image {
+  height: 50px;
+  width: 50px;
+}
+
+.love-emoji-heading {
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.love-emoji-response {
+  font-family: Roboto;
+  font-size: 15px;
+}
